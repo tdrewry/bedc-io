@@ -1,6 +1,6 @@
 import {useEffect, useState} from 'react'
 import './App.css'
-import {HashRouter, Route, Routes, useLocation, useNavigate} from 'react-router-dom';
+import {BrowserRouter as Router, Route, Routes, useLocation, useNavigate} from 'react-router-dom';
 import {integer, MersenneTwister19937} from 'random-js';
 
 // Data - START
@@ -642,7 +642,7 @@ const filePath = '/briv.json';
  */
 const App: React.FC = () => {
     return (
-        <HashRouter>
+        <Router>
             <div>
                 <h1>DDB Back End Developer Challenge</h1>
                 <Routes>
@@ -690,7 +690,7 @@ const App: React.FC = () => {
                         />
                 </Routes>
             </div>
-        </HashRouter>
+        </Router>
     );
 };
 export default App
