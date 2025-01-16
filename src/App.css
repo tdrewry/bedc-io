@@ -1,0 +1,17 @@
+#root {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: left;
+}
+
+pre {
+  text-align: left;
+}
+
+button {
+  margin: 2px 4px 4px 2px;
+}
+.hpbox {
+  display: flex;
+}
